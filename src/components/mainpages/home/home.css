@@ -1,0 +1,172 @@
+body{
+    background-color: #ffffff;
+}
+
+.hero-section {
+ background-image: url('../../headers/icon/hero.webp');
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ height: 600px;
+ display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-text{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 200px;
+    font-size: 25px;
+    color : white;
+    letter-spacing: 5px;
+}
+
+.button a{ 
+    padding: 10px 35px;
+    background-color: #e8d209;
+    color: rgb(19, 19, 19);
+    transition: 300ms all ease;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.button a:hover { 
+    background-color: #f7f7f7;
+}
+
+
+.aboutUs-section{
+    max-width : 500px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+    padding: 50px 200px;
+    box-shadow: 0 1px 25px rgba(82, 82, 82, 0.4);
+}
+
+.aboutUs-section h1{
+    font-size: 38px;
+    letter-spacing: 8px;
+
+}
+
+.aboutUs-section h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aboutUs-section p {
+    padding: 0 50px;
+    text-align: justify;
+    margin-bottom: 60px;
+    line-height: 1.9;
+}
+
+.line{
+    width: 60px;
+    height: 100px;
+    border-right: solid rgb(229,203,199) 1.5px;
+    position: relative;
+    left: 700px;
+    top : -850px;
+}
+
+.wedo{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -150px;
+}
+
+.services {
+    width:  100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(380px , 1fr));
+    justify-items: center;
+    margin : 20px 0; 
+}
+
+.service-card{
+    padding: 20px 40px;
+    border-right: 1px solid #000000;
+}
+
+.service-card h2{
+    font-size: 23px;
+    padding: 10px 0 0 50px;
+}
+
+.service-card p{
+    padding: 10px 0 0 50px;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    line-height: 1.7;
+}
+
+.service-card img{
+    padding: 0 50px;
+}
+
+.no-line{
+    border : none
+}
+
+.center{
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.collab{
+    margin-top: 100px;
+    min-height: 400px;
+    background-color: #292F45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collab h1{
+    color: white;
+}
+
+.contact-us{
+    background-color: #EAEFF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+footer{
+    background-color: #292F45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.imgrow{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(267px , 1fr));
+    justify-items: center;
+    margin: 20px 0;
+    align-items: center;
+}

@@ -1,0 +1,99 @@
+.hero{
+    height: 150px;
+    background-color: #EAEFF9;
+}
+
+.float{
+    max-width : 300px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -70px;
+    padding: 50px 180px;
+    box-shadow: 0 1px 25px rgba(122, 122, 122, 0.363);
+}
+
+.body{
+    margin: 200px 0 0 0;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning-section{
+    background-color: #EAEFF9;
+    padding-bottom: 20px;
+}
+
+.planning-section h1{
+    padding: 150px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width:  100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(380px , 1fr));
+    justify-items: center;
+    margin : 20px 0; 
+}
+.plans { 
+    max-width: 300px;
+    padding: 20px 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans h1 , .plans h3{ 
+    margin : 10px 0;
+    padding:  0;
+}
+
+.plans li {
+    list-style-type: disc;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.plans ul{
+    margin : 30px 10px 
+}
+.plans p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plans span{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.Objective{
+    width: 100%;
+    background-color: #EAEFF9;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 10px 0;
+    
+}
+
+.content{
+    background-color: white;
+    padding: 30px 50px;
+    box-shadow: 0 1px 25px rgba(122, 122, 122, 0.102);
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    color: rgb(47, 47, 47);
+}
