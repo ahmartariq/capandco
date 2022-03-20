@@ -2,6 +2,8 @@
 
 Cap&Co is a informational website for a client. 
 
+Visit the Site: [Cap&co](https://capandco.org/)
+
 ##	Tech used
 I used the basic web technologies for this project
 
